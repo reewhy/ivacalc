@@ -5,7 +5,7 @@ import ImageShow from "@/components/ImageShow.vue";
 
 <template>
   <div class="flex gap-8 w-full justify-evenly text-white">
-    <image-show></image-show>
-    <image-load class="w-1/2"></image-load>
+    <image-show class="max-w-[70%]"></image-show>
+    <image-load></image-load>
   </div>
 </template>
