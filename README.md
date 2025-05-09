@@ -1,10 +1,5 @@
-# Calcolatore di Iva
+# VAT Calculator
+Sample app used to calculate VAT (the default percentage is based on the default Italian IVA value), it has a front-end made in VueJS/TailwindCSS and a back-end made in Python using [Tesseract_OCR](https://github.com/tesseract-ocr/tesseract)
 
-Progetto per fare test in vue (non ottimizzato).
-Questo progetto permette di calcolare l'IVA di alcuni prezzi con una foto.
-Utilizzando Vue.js e Vite per l'interfaccia grafica, Flask per creare un server backend e Tesseract-OCR per la scansione delle immagini.
-
-### Attenzione
-- Potrebbe sbagliare dei calcoli
-- Funziona meglio con dei numeri stampati
-- L'applicazione non è completa e non intendo finirla
+## Premises
+The app is just a text and you should always do a check on if it has actually detected the real number. I'm not planning to keep on working on this.
